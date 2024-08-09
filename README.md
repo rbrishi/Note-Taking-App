@@ -1,96 +1,47 @@
-## Google Meet Clone
+# Note-Taking App
 
-![design](https://github.com/NjohPrince/google-keep/assets/60319809/51c54419-f641-40b8-8219-5f574d1abe42)
+A simple note-taking application inspired by Google Keep. This app allows users to create, view, pin, and delete notes. Built with React and Redux, this project adheres to the following conditions and includes some bonus features.
 
-## Atomic Design Principle
+## Features
 
-Atomic Design is a methodology for creating design systems that emphasizes the modular and hierarchical organization of components. Developed by Brad Frost, Atomic Design breaks down the UI into smaller, reusable components called atoms, molecules, organisms, templates, and pages. This approach encourages a systematic and scalable design system.
+- **Create Notes:** Add a note with an optional title and content.
+- **View Notes:** Display all created notes in a four-column layout.
+- **Pin Notes:** Pin important notes to keep them easily accessible.
+- **Delete Notes:** Remove notes as needed.
 
-## Principles of Atomic Design:
+## Conditions
 
-### 1. **Atoms:**
+- **Technology Stack:** Built with React, without using any UI libraries or CSS frameworks.
+- **State Management:** Utilizes Redux for state management.
+- **Hosting:** The live version of the app is hosted on [Vercel](https://note-taking-app-iota-one.vercel.app/).
 
-- **Definition:** The basic building blocks of a UI, such as buttons, input fields, and labels.
-- **Characteristics:** Simple, single-purpose elements that can't be broken down further.
-- **Example:** `<Button />`, `<Input />`
+## Bonus Features
 
-### 2. **Molecules:**
+- **TypeScript:** The app is developed with TypeScript for improved development experience and type safety.
+- **Images in Notes:** Users can add images to their notes.
+- **Background Colors:** Notes can have customizable background colors.
+- **Mobile Responsiveness:** The app is designed to be fully responsive on mobile devices.
 
-- **Definition:** A combination of atoms that work together as a unit, forming more complex components.
-- **Characteristics:** Relatively simple components that have a specific function when combined.
-- **Example:** A form with an `<Input />` and a `<Button />`
+## Installation
 
-### 3. **Organisms:**
+1. **Clone the Repository:**
 
-- **Definition:** Components that are more complex and represent distinct sections of an interface.
-- **Characteristics:** Composed of molecules and/or atoms, serving as functional units within the UI.
-- **Example:** A navigation bar with multiple links and a logo.
+   ```bash
+   git clone https://github.com/yourusername/note-taking-app.git
 
-### 4. **Templates:**
+2. **Navigate to the Project Directory:**
 
-- **Definition:** Page-level structures that organize components into a layout.
-- **Characteristics:** Consist of organisms and possibly some molecules and atoms to create a complete layout.
-- **Example:** A blog template with a header, sidebar, and main content area.
+   ```bash
+   cd note-taking-app
 
-### 5. **Pages:**
+3. **Install Dependencies:**
 
-- **Definition:** Specific instances of templates that represent actual content.
-- **Characteristics:** Real content is added to the templates to create unique pages.
-- **Example:** The homepage of a website with actual blog posts and images.
+   ```bash
+   npm install
 
-## Advantages of Atomic Design:
+5. **Run the Application:**
 
-1. **Modularity:**
+   ```bash
+   npm start
 
-   - Enables the creation of self-contained, reusable components.
-
-2. **Consistency:**
-
-   - Promotes a consistent design language throughout the application.
-
-3. **Scalability:**
-
-   - Facilitates the management of large and complex UIs by breaking them into manageable parts.
-
-4. **Collaboration:**
-
-   - Supports collaboration among designers and developers by providing a shared language and structure.
-
-5. **Testing:**
-
-   - Allows for easier testing of individual components, ensuring better reliability.
-
-6. **Maintainability:**
-
-   - Simplifies maintenance as changes can be localized to specific components.
-
-7. **Documentation:**
-   - Naturally provides a hierarchical structure that aids in documentation.
-
-## Implementation Tips:
-
-1. **Start Small:**
-
-   - Begin with simple atoms and molecules before progressing to more complex organisms.
-
-2. **Design Systems:**
-
-   - Use Atomic Design principles to create and maintain design systems.
-
-3. **Consistent Naming Conventions:**
-
-   - Establish clear and consistent naming conventions for components.
-
-4. **Tooling:**
-
-   - Leverage tools like Storybook to showcase and document your components.
-
-5. **Version Control:**
-   - Consider version control for design elements to track changes systematically.
-
-By adhering to the Atomic Design principles, development teams can create scalable and maintainable design systems that promote consistency and efficiency throughout the UI development process.
-
-## State Management
-
-[Refer Here](https://github.com/NjohPrince/google-keep/blob/main/STATE_MANAGEMENT.md)
-# Note-Taking-App
+The app will be available at http://localhost:3000.
