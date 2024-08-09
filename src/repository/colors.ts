@@ -15,4 +15,23 @@ export const colors: { name: string; colorCode: string }[] = [
     name: 'Purple',
     colorCode: '#d3bfdB',
   },
+
+  {
+    name: 'Orange',
+    colorCode: '#FFA500',
+  },
+  {
+    name: 'Red',
+    colorCode: '#FF0000',
+  },
+
+  {
+    name: 'Aquamarine',
+    colorCode: '#7FFFD4',
+  },
+
+  {
+    name: 'Yellow',
+    colorCode: '#FFFF00',
+  },
 ]
