@@ -1,0 +1,26 @@
+.notes {
+  min-height: calc(100vh - 84px);
+  padding-top: 16px;
+}
+
+.notes .empty {
+  flex: 1;
+  -ms-flex: 1;
+  height: 100%;
+}
+
+.top {
+  gap: 24px;
+}
+
+.grid {
+  max-width: 1090px;
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.head {
+  max-width: 1090px;
+}
