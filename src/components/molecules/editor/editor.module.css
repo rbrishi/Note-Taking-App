@@ -130,8 +130,8 @@
 
 
 
-/*
-.editor {
+
+/* .editor {
   padding-bottom: 6px;
   word-wrap: break-word; /* Ensure text wraps to the next line */
   overflow-wrap: break-word; /* Ensure text wraps to the next line */
@@ -264,5 +264,5 @@
   left: 0;
   opacity: 0;
   cursor: pointer;
-}
-*/
+} */
+
