@@ -19,6 +19,7 @@
   box-shadow: transparent 0px 8px 24px;
   -webkit-box-shadow: tranparent 0px 8px 24px;
   outline: none;
+  overflow: hidden;
 }
 
 .image {
@@ -113,6 +114,11 @@
   color: var(--dark-color);
   width: 100%;
   max-width: 200px;
+
+  margin: 0; /* Remove default margins */
+  word-wrap: break-word; /* Ensures long words break and text wraps */
+  overflow-wrap: break-word; /* For handling long words */
+  hyphens: auto; /* Automatically adds hyphens to text */
 }
 
 .icons__set {
@@ -128,6 +134,11 @@
 .note__header p {
   font-size: 1.6rem;
   color: var(--dark-color);
+
+  margin: 0; /* Remove default margins */
+  word-wrap: break-word; /* Ensures long words break and text wraps */
+  overflow-wrap: break-word; /* For handling long words */
+  hyphens: auto; /* Automatically adds hyphens to text */
 }
 
 .color__options {
