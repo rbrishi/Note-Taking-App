@@ -8,20 +8,14 @@ A simple note-taking application inspired by Google Keep. This app allows users 
 - **View Notes:** Display all created notes in a four-column layout.
 - **Pin Notes:** Pin important notes to keep them easily accessible.
 - **Delete Notes:** Remove notes as needed.
-
-## Conditions
-
-- **Technology Stack:** Built with React, without using any UI libraries or CSS frameworks.
-- **State Management:** Utilizes Redux for state management.
-- **Hosting:** The live version of the app is hosted on [Vercel](https://note-taking-app-iota-one.vercel.app/).
-
-## Bonus Features
-
 - **TypeScript:** The app is developed with TypeScript for improved development experience and type safety.
 - **Images in Notes:** Users can add images to their notes.
 - **Background Colors:** Notes can have customizable background colors.
 - **Mobile Responsiveness:** The app is designed to be fully responsive on mobile devices.
 
+
+- **Hosting:** The live version of the app is hosted on [Vercel](https://note-taking-app-iota-one.vercel.app/).
+  
 ## Installation
 
 1. **Clone the Repository:**
