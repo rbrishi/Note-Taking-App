@@ -1,4 +1,4 @@
-/*.editor {
+.editor {
   padding-bottom: 6px;
 }
 
@@ -128,12 +128,9 @@
 }
 
 
-*/
 
 
-
-
-
+/*
 .editor {
   padding-bottom: 6px;
   word-wrap: break-word; /* Ensure text wraps to the next line */
@@ -269,3 +266,4 @@
   cursor: pointer;
 }
 
+*/
